@@ -4,7 +4,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-  res.send('<h3>Hello world from NodeJS</h3><br><b>Server listening port ' + port + ' on container ' + os.hostname() + '</b>');
+  res.send('<h3>Hello world from NodeJS!!!!!!</h3><br><b>Server listening port ' + port + ' on container ' + os.hostname() + '</b>');
 });
 
 app.listen(port, '0.0.0.0', function () {
